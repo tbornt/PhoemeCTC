@@ -30,3 +30,8 @@ Dependencies
 `brew install libsndfile`
 `pip install -r requirements.txt`
 
+or let docker handle everything and run the project inside docker with:
+```
+make docker-run
+```
+
