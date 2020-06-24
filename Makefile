@@ -9,4 +9,5 @@ docker-run: docker-build
 	docker run -it \
 		--name="phoneme"\
  		--env="PYTHONUNBUFFERED=TRUE"\
+		-v `pwd`/:/app/ \
 		phoneme
